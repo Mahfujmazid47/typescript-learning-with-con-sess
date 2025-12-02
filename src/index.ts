@@ -14,6 +14,13 @@ const person: TPerson = {
 
 // console.log(person)
 
+const numbers: number[] = [1, 2, 3];
+const names: string[] = ["a", "b", "c"];
+
+
+const person1: [string, number] = ["Mahfuj", 22];
+
+
 //node --watch src/index.ts  OR  cd src -->  THEN node --watch index.ts
 
 // tsc i -g typescript           --> Globally installed 
