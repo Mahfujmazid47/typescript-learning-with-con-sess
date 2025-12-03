@@ -140,7 +140,19 @@
 
 
 // 7️⃣ void 
-//  jokhon kono function kono kisu return korbe na but console.log korte pare
+//  jokhon kono function kono kisu return korbe na but console.log korte pare --> function ke kono perameter dicche na 
+
+// void
+
+// যে ফাংশন কিছু return করে না।
+
+// const log = (msg: string): void => {
+//   console.log(msg);
+// };
+
+
+// Where: logging, event handlers
+// Importance: clean function signature
 
 
 // 8️⃣ object Literal vs Object type
