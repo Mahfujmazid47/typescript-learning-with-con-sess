@@ -138,7 +138,12 @@
 
 // const userRole: Role = Role.Admin;
 
-// 7️⃣ object Literal vs Object type
+
+// 7️⃣ void 
+//  jokhon kono function kono kisu return korbe na but console.log korte pare
+
+
+// 8️⃣ object Literal vs Object type
 // const product = {
 //   name: "Laptop",
 //   price: 50000,
