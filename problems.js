@@ -156,5 +156,10 @@ const filterActiveUsers = (arr) => {
 
 
 
-// 6th Problem
+// 7th Problem
 
+const getUniqueValues = (arr1, arr2) => {
+    const result = [];
+
+    
+}
