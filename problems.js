@@ -72,3 +72,15 @@ console.log(person1.getDetails());
 
 const person2 = new Person('Alice', 25);
 console.log(person2.getDetails());
+
+
+
+
+
+
+
+
+
+
+// 4th Problem
+
