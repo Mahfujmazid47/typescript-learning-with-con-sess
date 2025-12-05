@@ -11,16 +11,17 @@ class Pizza {
     toppings: string;
     size: number;
 
-    constructor(toppings:string, size:number){
+    constructor(toppings: string, size: number) {
         this.toppings = toppings;
         this.size = size;
     }
 
-    serve(){
-        return` ${this.toppings} ${this.size}` 
+    serve() {
+        return ` ${this.toppings} ${this.size}`
     }
 }
 
-const pizza = new Pizza("chesee" , 10);
-
-console.log(pizza.serve())
+const pizza = new Pizza("chesee", 10);
+const pizza1 = new Pizza("margerita", 12);
+console.log(pizza1.serve());
+console.log(pizza.serve());
