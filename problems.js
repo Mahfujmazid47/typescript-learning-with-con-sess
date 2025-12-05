@@ -67,11 +67,11 @@ class Person {
     }
 }
 
-const person1 = new Person('John Doe', 30);
-console.log(person1.getDetails());
+// const person1 = new Person('John Doe', 30);
+// console.log(person1.getDetails());
 
-const person2 = new Person('Alice', 25);
-console.log(person2.getDetails());
+// const person2 = new Person('Alice', 25);
+// console.log(person2.getDetails());
 
 
 
@@ -83,4 +83,78 @@ console.log(person2.getDetails());
 
 
 // 4th Problem
+
+const filterByRating = (arr) => {
+
+    const result = [];
+
+    if (Array.isArray(arr)) {
+        for (let i = 0; i < arr.length; i++) {
+            const obj = arr[i];
+            if (obj.rating >= 4) {
+                result.push(obj);
+            }
+        }
+    }
+
+    return result;
+}
+
+// const books = [
+//     { title: 'Book A', rating: 4.5 },
+//     { title: 'Book B', rating: 3.2 },
+//     { title: 'Book C', rating: 5.0 },
+// ];
+
+// console.log(filterByRating(books));
+
+
+
+
+
+
+
+
+// 5th Problem
+
+const filterActiveUsers = (arr) => {
+
+    const result = [];
+
+    if(Array.isArray(arr)){
+        for (let i = 0; i < arr.length; i++) {
+            const obj = arr[i];
+            if(obj.isActive === true){
+                result.push(obj);
+            }
+        }
+    }
+
+    return result;
+}
+
+
+// const users = [
+//   { id: 1, name: 'Rakib', email: 'rakib@example.com', isActive: true },
+//   { id: 2, name: 'Asha', email: 'asha@example.com', isActive: false },
+//   { id: 3, name: 'Rumi', email: 'rumi@example.com', isActive: true },
+// ];
+
+// console.log(filterActiveUsers(users));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 6th Problem
 
